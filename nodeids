@@ -1,0 +1,4 @@
+[
+  "test_api.py::test_add_and_list",
+  "test_api.py::test_cancel"
+]

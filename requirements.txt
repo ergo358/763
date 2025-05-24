@@ -1,0 +1,7 @@
+aiogram
+requests
+python-dotenv
+fastapi
+uvicorn
+pytest
+httpx

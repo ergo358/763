@@ -1,0 +1,22 @@
+{
+  "name": "booking-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@chakra-ui/react": "^2.8.1",
+    "framer-motion": "^10.16.4",
+    "recharts": "^2.8.0",
+    "qrcode.react": "^3.1.0",
+    "serve": "^14.2.0",
+    "axios": "^1.6.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --watchAll=false",
+    "smoke": "npm run build && (if exist build (exit 0) else (echo Build failed & exit 1))",
+    "clean": "rimraf node_modules build"
+  }
+}
